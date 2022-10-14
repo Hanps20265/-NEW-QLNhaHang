@@ -54,7 +54,7 @@ public class ThucDonDAO extends MainDao<ThucDon, String>{
                     ThucDon entity = new ThucDon();
                     entity.setMaMon(rs.getString("MaMon"));
                     entity.setTenMon(rs.getString("TenMon"));
-                    entity.setGia(rs.getFloat("DonGia"));
+                    entity.setGia(rs.getString("DonGia"));
                     entity.setDonViHoaDon(rs.getString("DonViHoaDon"));
                     entity.setMaLoaiMon(rs.getString("MaLoaiMon"));
                     list.add(entity);

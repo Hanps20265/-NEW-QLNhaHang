@@ -1,16 +1,16 @@
 package Model;
 
 public class ThucDon {
-    private String maMon;
-    private String maLoaiMon;
-    private String tenMon;
-    private float gia;
-    private String donViHoaDon;
+    public String maMon;
+    public String maLoaiMon;
+    public String tenMon;
+    public String gia;
+    public String donViHoaDon;
 
     public ThucDon() {
     }
 
-    public ThucDon(String maMon, String maLoaiMon, String tenMon, float gia, String donViHoaDon) {
+    public ThucDon(String maMon, String tenMon, String gia, String donViHoaDon, String maLoaiMon) {
         this.maMon = maMon;
         this.maLoaiMon = maLoaiMon;
         this.tenMon = tenMon;
@@ -26,11 +26,11 @@ public class ThucDon {
         this.tenMon = tenMon;
     }
 
-    public float getGia() {
+    public String getGia() {
         return gia;
     }
 
-    public void setGia(float gia) {
+    public void setGia(String gia) {
         this.gia = gia;
     }
 

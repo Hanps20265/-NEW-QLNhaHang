@@ -1,7 +1,6 @@
 
 package Controller;
 
-import static java.lang.System.exit;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
